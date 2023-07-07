@@ -25,8 +25,8 @@ public abstract class Celular {
         this.fabricante = fabricante;
     }
 
-    public abstract void ligar(String numeroDestinatario);
+    protected abstract void ligar(String numeroDestinatario);
 
-    public abstract void mandarSMS(String mensagem, String numeroDestinatario);
+    protected abstract void mandarSMS(String mensagem, String numeroDestinatario);
 
 }
