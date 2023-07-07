@@ -4,7 +4,8 @@ Este desafio consiste na modelagem e implementação em Java de um componente do
 
 ## Diagrama UML
 
-A modelagem do sistema foi representada em um diagrama UML, que descreve as classes e interfaces envolvidas e suas relações. O diagrama pode ser visualizado no seguinte arquivo: `diagrama.uml` (coloque aqui o caminho do arquivo ou o link para o diagrama).
+A modelagem do sistema foi representada em um diagrama UML, que descreve as classes e interfaces envolvidas e suas relações.
+![Diagrama UML](https://github.com/dellribeiro/Java-Basico-POO-Iphone/blob/main/UML/UML.png)
 
 ## Funcionalidades Esperadas
 
@@ -23,17 +24,6 @@ O iPhone deve ser capaz de desempenhar as seguintes funcionalidades:
     - Exibir página;
     - Adicionar nova aba;
     - Atualizar página.
-
-## Implementação em Java
-
-A implementação do componente iPhone foi realizada na linguagem de programação Java, com base nas classes e interfaces fornecidas. O código-fonte está disponível nos seguintes arquivos:
-
-- `Iphone.java`: Contém a classe `Iphone`, que representa um modelo específico de iPhone e implementa as interfaces `NavegadorInterface` e `ReprodutoInterface`.
-- `Celular.java`: Contém a classe abstrata `Celular`, que representa um celular genérico e define os métodos comuns para ligar e enviar SMS.
-- `NavegadorInterface.java`: Define a interface `NavegadorInterface`, com os métodos relacionados ao navegador na internet.
-- `ReprodutoInterface.java`: Define a interface `ReprodutoInterface`, com os métodos relacionados ao reprodutor musical.
-
-Para executar e testar o componente iPhone, você pode utilizar a classe `Main` como ponto de entrada do programa. Nessa classe, foram criados exemplos de uso dos métodos do iPhone.
 
 ## Requisitos do Sistema
 
